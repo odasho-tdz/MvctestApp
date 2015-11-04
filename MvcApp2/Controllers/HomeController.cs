@@ -10,7 +10,7 @@ namespace MvcApp2.Controllers
 	{
 		public ActionResult Index(string returnUrl)
 		{
-			//testaaa
+			//test
 			ViewBag.ReturnUrl = returnUrl;
 			return View();
 		}
